@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/influxdata/influxdb/tsdb/index/tsi1"
+	"github.com/archsaber/influxdb/tsdb/index/tsi1"
 )
 
 // Ensure tag blocks can be written and opened.

@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb"
+	"github.com/archsaber/influxdb"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/services/meta"
+	"github.com/archsaber/influxdb/influxql"
+	"github.com/archsaber/influxdb/services/meta"
 )
 
 func TestMetaClient_CreateDatabaseOnly(t *testing.T) {

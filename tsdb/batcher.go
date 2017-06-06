@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
+	"github.com/archsaber/influxdb/models"
 )
 
 // PointBatcher accepts Points and will emit a batch of those points when either

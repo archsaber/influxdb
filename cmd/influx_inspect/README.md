@@ -35,7 +35,7 @@ Only display index and block data match this key substring.
 
 
 ### `influx_inspect export`
-Exports all tsm files to line protocol.  This output file can be imported via the [influx](https://github.com/influxdata/influxdb/tree/master/importer#running-the-import-command) command.
+Exports all tsm files to line protocol.  This output file can be imported via the [influx](https://github.com/archsaber/influxdb/tree/master/importer#running-the-import-command) command.
 
 
 #### `-datadir` string

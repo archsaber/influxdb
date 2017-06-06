@@ -8,9 +8,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/stress/v2/statement"
-	stressql "github.com/influxdata/influxdb/stress/v2/stressql/statement"
+	"github.com/archsaber/influxdb/influxql"
+	"github.com/archsaber/influxdb/stress/v2/statement"
+	stressql "github.com/archsaber/influxdb/stress/v2/stressql/statement"
 )
 
 // Token represents a lexical token.

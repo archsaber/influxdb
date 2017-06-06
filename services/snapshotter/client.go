@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/tcp"
+	"github.com/archsaber/influxdb/services/meta"
+	"github.com/archsaber/influxdb/tcp"
 )
 
 // Client provides an API for the snapshotter service.

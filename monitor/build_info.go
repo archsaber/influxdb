@@ -1,6 +1,6 @@
 package monitor
 
-import "github.com/influxdata/influxdb/monitor/diagnostics"
+import "github.com/archsaber/influxdb/monitor/diagnostics"
 
 // build holds information of the build of the current executable.
 type build struct {

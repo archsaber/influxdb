@@ -1,4 +1,4 @@
-package tsdb // import "github.com/influxdata/influxdb/tsdb"
+package tsdb // import "github.com/archsaber/influxdb/tsdb"
 
 import (
 	"errors"
@@ -14,11 +14,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/bytesutil"
-	"github.com/influxdata/influxdb/pkg/estimator"
-	"github.com/influxdata/influxdb/pkg/limiter"
+	"github.com/archsaber/influxdb/influxql"
+	"github.com/archsaber/influxdb/models"
+	"github.com/archsaber/influxdb/pkg/bytesutil"
+	"github.com/archsaber/influxdb/pkg/estimator"
+	"github.com/archsaber/influxdb/pkg/limiter"
 	"github.com/uber-go/zap"
 )
 

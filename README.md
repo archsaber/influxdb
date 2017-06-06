@@ -1,4 +1,4 @@
-# InfluxDB [![Circle CI](https://circleci.com/gh/influxdata/influxdb/tree/master.svg?style=svg)](https://circleci.com/gh/influxdata/influxdb/tree/master) [![Go Report Card](https://goreportcard.com/badge/github.com/influxdata/influxdb)](https://goreportcard.com/report/github.com/influxdata/influxdb) [![Docker pulls](https://img.shields.io/docker/pulls/library/influxdb.svg)](https://hub.docker.com/_/influxdb/)
+# InfluxDB [![Circle CI](https://circleci.com/gh/influxdata/influxdb/tree/master.svg?style=svg)](https://circleci.com/gh/influxdata/influxdb/tree/master) [![Go Report Card](https://goreportcard.com/badge/github.com/archsaber/influxdb)](https://goreportcard.com/report/github.com/archsaber/influxdb) [![Docker pulls](https://img.shields.io/docker/pulls/library/influxdb.svg)](https://hub.docker.com/_/influxdb/)
 
 ## An Open-Source Time Series Database
 
@@ -64,7 +64,7 @@ curl -G http://localhost:8086/query?pretty=true --data-urlencode "db=mydb" \
 
 ## Contributing
 
-If you're feeling adventurous and want to contribute to InfluxDB, see our [contributing doc](https://github.com/influxdata/influxdb/blob/master/CONTRIBUTING.md) for info on how to make feature requests, build from source, and run tests.
+If you're feeling adventurous and want to contribute to InfluxDB, see our [contributing doc](https://github.com/archsaber/influxdb/blob/master/CONTRIBUTING.md) for info on how to make feature requests, build from source, and run tests.
 
 ## Looking for Support?
 

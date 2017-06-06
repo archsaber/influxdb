@@ -8,8 +8,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/influxdata/influxdb/pkg/estimator/hll"
-	"github.com/influxdata/influxdb/pkg/mmap"
+	"github.com/archsaber/influxdb/pkg/estimator/hll"
+	"github.com/archsaber/influxdb/pkg/mmap"
 )
 
 // IndexFiles represents a layered set of index files.

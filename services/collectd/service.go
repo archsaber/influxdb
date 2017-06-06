@@ -1,5 +1,5 @@
 // Package collectd provides a service for InfluxDB to ingest data via the collectd protocol.
-package collectd // import "github.com/influxdata/influxdb/services/collectd"
+package collectd // import "github.com/archsaber/influxdb/services/collectd"
 
 import (
 	"bytes"
@@ -15,9 +15,9 @@ import (
 
 	"collectd.org/api"
 	"collectd.org/network"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/archsaber/influxdb/models"
+	"github.com/archsaber/influxdb/services/meta"
+	"github.com/archsaber/influxdb/tsdb"
 	"github.com/uber-go/zap"
 )
 

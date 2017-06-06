@@ -6,9 +6,9 @@ import (
 	"regexp"
 	"sort"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/estimator"
+	"github.com/archsaber/influxdb/influxql"
+	"github.com/archsaber/influxdb/models"
+	"github.com/archsaber/influxdb/pkg/estimator"
 	"github.com/uber-go/zap"
 )
 

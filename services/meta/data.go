@@ -11,10 +11,10 @@ import (
 	"unicode"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/influxdata/influxdb"
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	internal "github.com/influxdata/influxdb/services/meta/internal"
+	"github.com/archsaber/influxdb"
+	"github.com/archsaber/influxdb/influxql"
+	"github.com/archsaber/influxdb/models"
+	internal "github.com/archsaber/influxdb/services/meta/internal"
 )
 
 //go:generate protoc --gogo_out=. internal/meta.proto

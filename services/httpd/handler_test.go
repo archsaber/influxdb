@@ -14,13 +14,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/internal"
+	"github.com/archsaber/influxdb/internal"
 
 	"github.com/dgrijalva/jwt-go"
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/services/httpd"
-	"github.com/influxdata/influxdb/services/meta"
+	"github.com/archsaber/influxdb/influxql"
+	"github.com/archsaber/influxdb/models"
+	"github.com/archsaber/influxdb/services/httpd"
+	"github.com/archsaber/influxdb/services/meta"
 )
 
 // Ensure the handler returns results from a query (including nil results).

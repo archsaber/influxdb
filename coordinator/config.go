@@ -5,9 +5,9 @@ package coordinator
 import (
 	"time"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/monitor/diagnostics"
-	"github.com/influxdata/influxdb/toml"
+	"github.com/archsaber/influxdb/influxql"
+	"github.com/archsaber/influxdb/monitor/diagnostics"
+	"github.com/archsaber/influxdb/toml"
 )
 
 const (

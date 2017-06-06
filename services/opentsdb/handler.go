@@ -13,8 +13,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/influxdata/influxdb"
-	"github.com/influxdata/influxdb/models"
+	"github.com/archsaber/influxdb"
+	"github.com/archsaber/influxdb/models"
 	"github.com/uber-go/zap"
 )
 

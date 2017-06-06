@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/influxql"
+	"github.com/archsaber/influxdb/influxql"
 )
 
 // Ensure the parser can parse a multi-statement query.
@@ -1015,7 +1015,7 @@ func TestParser_ParseStatement(t *testing.T) {
 				},
 			},
 		},
-		// SELECT statement with group by and multi digit duration (prevent regression from #731://github.com/influxdata/influxdb/pull/7316)
+		// SELECT statement with group by and multi digit duration (prevent regression from #731://github.com/archsaber/influxdb/pull/7316)
 		{
 			s: fmt.Sprintf(`SELECT count(value) FROM cpu where time < '%s' group by time(500ms)`, now.UTC().Format(time.RFC3339Nano)),
 			stmt: &influxql.SelectStatement{
@@ -1437,8 +1437,8 @@ func TestParser_ParseStatement(t *testing.T) {
 			},
 		},
 
-		// See issues https://github.com/influxdata/influxdb/issues/1647
-		// and https://github.com/influxdata/influxdb/issues/4404
+		// See issues https://github.com/archsaber/influxdb/issues/1647
+		// and https://github.com/archsaber/influxdb/issues/4404
 		// DELETE statement
 		//{
 		//	s: `DELETE FROM myseries WHERE host = 'hosta.influxdb.org'`,
@@ -2671,10 +2671,10 @@ func TestParser_ParseStatement(t *testing.T) {
 		{s: `SELECT value = 2 FROM cpu`, err: `invalid operator = in SELECT clause at line 1, char 8; operator is intended for WHERE clause`},
 		{s: `SELECT s =~ /foo/ FROM cpu`, err: `invalid operator =~ in SELECT clause at line 1, char 8; operator is intended for WHERE clause`},
 		{s: `SELECT mean(value) + value FROM cpu WHERE time < now() and time > now() - 1h GROUP BY time(10m)`, err: `binary expressions cannot mix aggregates and raw fields`},
-		// TODO: Remove this restriction in the future: https://github.com/influxdata/influxdb/issues/5968
+		// TODO: Remove this restriction in the future: https://github.com/archsaber/influxdb/issues/5968
 		{s: `SELECT mean(cpu_total - cpu_idle) FROM cpu`, err: `expected field argument in mean()`},
 		{s: `SELECT derivative(mean(cpu_total - cpu_idle), 1s) FROM cpu WHERE time < now() AND time > now() - 1d GROUP BY time(1h)`, err: `expected field argument in mean()`},
-		// TODO: The error message will change when math is allowed inside an aggregate: https://github.com/influxdata/influxdb/pull/5990#issuecomment-195565870
+		// TODO: The error message will change when math is allowed inside an aggregate: https://github.com/archsaber/influxdb/pull/5990#issuecomment-195565870
 		{s: `SELECT count(foo + sum(bar)) FROM cpu`, err: `expected field argument in count()`},
 		{s: `SELECT (count(foo + sum(bar))) FROM cpu`, err: `expected field argument in count()`},
 		{s: `SELECT sum(value) + count(foo + sum(bar)) FROM cpu`, err: `binary expressions cannot mix aggregates and raw fields`},
@@ -2682,8 +2682,8 @@ func TestParser_ParseStatement(t *testing.T) {
 		{s: `SELECT sum(mean) FROM (SELECT mean(value) FROM cpu GROUP BY time(1h))`, err: `aggregate functions with GROUP BY time require a WHERE time clause`},
 		{s: `SELECT top(value, 2), max(value) FROM cpu`, err: `selector function top() cannot be combined with other functions`},
 		{s: `SELECT bottom(value, 2), max(value) FROM cpu`, err: `selector function bottom() cannot be combined with other functions`},
-		// See issues https://github.com/influxdata/influxdb/issues/1647
-		// and https://github.com/influxdata/influxdb/issues/4404
+		// See issues https://github.com/archsaber/influxdb/issues/1647
+		// and https://github.com/archsaber/influxdb/issues/4404
 		//{s: `DELETE`, err: `found EOF, expected FROM at line 1, char 8`},
 		//{s: `DELETE FROM`, err: `found EOF, expected identifier at line 1, char 13`},
 		//{s: `DELETE FROM myseries WHERE`, err: `found EOF, expected identifier, string, number, bool at line 1, char 28`},

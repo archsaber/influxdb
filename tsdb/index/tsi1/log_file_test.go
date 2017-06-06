@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/bloom"
-	"github.com/influxdata/influxdb/tsdb/index/tsi1"
+	"github.com/archsaber/influxdb/models"
+	"github.com/archsaber/influxdb/pkg/bloom"
+	"github.com/archsaber/influxdb/tsdb/index/tsi1"
 )
 
 // Ensure log file can append series.

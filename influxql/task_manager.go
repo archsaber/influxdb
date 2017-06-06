@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
+	"github.com/archsaber/influxdb/models"
 	"github.com/uber-go/zap"
 )
 

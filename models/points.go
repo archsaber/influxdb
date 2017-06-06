@@ -1,5 +1,5 @@
 // Package models implements basic objects used throughout the TICK stack.
-package models // import "github.com/influxdata/influxdb/models"
+package models // import "github.com/archsaber/influxdb/models"
 
 import (
 	"bytes"
@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/influxdb/pkg/escape"
+	"github.com/archsaber/influxdb/pkg/escape"
 )
 
 var (

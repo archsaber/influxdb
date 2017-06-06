@@ -43,9 +43,9 @@ cd $REPO_DIR
 export GOPATH=`pwd`
 mkdir -p $GOPATH/src/github.com/influxdata
 cd $GOPATH/src/github.com/influxdata
-git clone https://github.com/influxdata/influxdb.git
+git clone https://github.com/archsaber/influxdb.git
 
-cd $GOPATH/src/github.com/influxdata/influxdb
+cd $GOPATH/src/github.com/archsaber/influxdb
 VERSION="$MASTER_VERSION-nightly-`git log --pretty=format:'%h' -n 1`"
 NIGHTLY_BUILD=true ./package.sh $race $VERSION
 

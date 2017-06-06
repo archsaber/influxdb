@@ -5,8 +5,8 @@ package tsdb
 import (
 	"sort"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/escape"
+	"github.com/archsaber/influxdb/models"
+	"github.com/archsaber/influxdb/pkg/escape"
 )
 
 // MarshalTags converts a tag set to bytes for use as a lookup key.

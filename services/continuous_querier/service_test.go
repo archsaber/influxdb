@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/services/meta"
+	"github.com/archsaber/influxdb/influxql"
+	"github.com/archsaber/influxdb/services/meta"
 	"github.com/uber-go/zap"
 )
 

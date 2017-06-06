@@ -1,5 +1,5 @@
 // Package bz1 reads data from bz1 shards.
-package bz1 // import "github.com/influxdata/influxdb/cmd/influx_tsm/bz1"
+package bz1 // import "github.com/archsaber/influxdb/cmd/influx_tsm/bz1"
 
 import (
 	"bytes"
@@ -12,9 +12,9 @@ import (
 
 	"github.com/boltdb/bolt"
 	"github.com/golang/snappy"
-	"github.com/influxdata/influxdb/cmd/influx_tsm/stats"
-	"github.com/influxdata/influxdb/cmd/influx_tsm/tsdb"
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
+	"github.com/archsaber/influxdb/cmd/influx_tsm/stats"
+	"github.com/archsaber/influxdb/cmd/influx_tsm/tsdb"
+	"github.com/archsaber/influxdb/tsdb/engine/tsm1"
 )
 
 // DefaultChunkSize is the size of chunks read from the bz1 shard

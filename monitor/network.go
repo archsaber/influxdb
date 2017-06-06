@@ -3,7 +3,7 @@ package monitor
 import (
 	"os"
 
-	"github.com/influxdata/influxdb/monitor/diagnostics"
+	"github.com/archsaber/influxdb/monitor/diagnostics"
 )
 
 // network captures network diagnostics.

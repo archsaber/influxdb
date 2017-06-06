@@ -9,7 +9,7 @@ import (
 	"sort"
 
 	"github.com/gogo/protobuf/proto"
-	internal "github.com/influxdata/influxdb/influxql/internal"
+	internal "github.com/archsaber/influxdb/influxql/internal"
 )
 
 // ZeroTime is the Unix nanosecond timestamp for no time.

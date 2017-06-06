@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/influxdata/influxdb/tsdb/index/inmem"
+	"github.com/archsaber/influxdb/models"
+	"github.com/archsaber/influxdb/tsdb"
+	"github.com/archsaber/influxdb/tsdb/index/inmem"
 )
 
 // Ensure tags can be marshaled into a byte slice.

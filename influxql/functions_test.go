@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/pkg/deep"
+	"github.com/archsaber/influxdb/influxql"
+	"github.com/archsaber/influxdb/pkg/deep"
 )
 
 func almostEqual(got, exp float64) bool {

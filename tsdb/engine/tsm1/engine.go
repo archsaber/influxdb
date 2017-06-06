@@ -1,5 +1,5 @@
 // Package tsm1 provides a TSDB in the Time Structured Merge tree format.
-package tsm1 // import "github.com/influxdata/influxdb/tsdb/engine/tsm1"
+package tsm1 // import "github.com/archsaber/influxdb/tsdb/engine/tsm1"
 
 import (
 	"archive/tar"
@@ -17,15 +17,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/influxdata/influxdb/tsdb/index/inmem"
+	"github.com/archsaber/influxdb/tsdb/index/inmem"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/bytesutil"
-	"github.com/influxdata/influxdb/pkg/estimator"
-	"github.com/influxdata/influxdb/pkg/limiter"
-	"github.com/influxdata/influxdb/tsdb"
-	_ "github.com/influxdata/influxdb/tsdb/index"
+	"github.com/archsaber/influxdb/influxql"
+	"github.com/archsaber/influxdb/models"
+	"github.com/archsaber/influxdb/pkg/bytesutil"
+	"github.com/archsaber/influxdb/pkg/estimator"
+	"github.com/archsaber/influxdb/pkg/limiter"
+	"github.com/archsaber/influxdb/tsdb"
+	_ "github.com/archsaber/influxdb/tsdb/index"
 	"github.com/uber-go/zap"
 )
 

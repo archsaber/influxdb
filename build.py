@@ -43,7 +43,7 @@ CONFIGURATION_FILES = [
 ]
 
 PACKAGE_LICENSE = "MIT"
-PACKAGE_URL = "https://github.com/influxdata/influxdb"
+PACKAGE_URL = "https://github.com/archsaber/influxdb"
 MAINTAINER = "support@influxdb.com"
 VENDOR = "InfluxData"
 DESCRIPTION = "Distributed time-series database."

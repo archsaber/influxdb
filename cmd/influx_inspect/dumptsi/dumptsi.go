@@ -10,8 +10,8 @@ import (
 	"regexp"
 	"text/tabwriter"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb/index/tsi1"
+	"github.com/archsaber/influxdb/models"
+	"github.com/archsaber/influxdb/tsdb/index/tsi1"
 )
 
 // Command represents the program execution for "influxd dumptsi".

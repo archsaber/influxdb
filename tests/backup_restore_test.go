@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/cmd/influxd/backup"
-	"github.com/influxdata/influxdb/cmd/influxd/restore"
+	"github.com/archsaber/influxdb/cmd/influxd/backup"
+	"github.com/archsaber/influxdb/cmd/influxd/restore"
 )
 
 func TestServer_BackupAndRestore(t *testing.T) {

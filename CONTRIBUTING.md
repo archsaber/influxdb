@@ -43,7 +43,7 @@ Contributing to the source code
 
 InfluxDB follows standard Go project structure. This means that all your Go development are done in `$GOPATH/src`. GOPATH can be any directory under which InfluxDB and all its dependencies will be cloned. For full details on the project structure, follow along below.
 
-You should also read our [coding guide](https://github.com/influxdata/influxdb/blob/master/CODING_GUIDELINES.md), to understand better how to write code for InfluxDB.
+You should also read our [coding guide](https://github.com/archsaber/influxdb/blob/master/CODING_GUIDELINES.md), to understand better how to write code for InfluxDB.
 
 Submitting a pull request
 ------------
@@ -101,7 +101,7 @@ Setup the project structure and fetch the repo like so:
 ```bash
     mkdir $HOME/gocodez
     export GOPATH=$HOME/gocodez
-    go get github.com/influxdata/influxdb
+    go get github.com/archsaber/influxdb
 ```
 
 You can add the line `export GOPATH=$HOME/gocodez` to your bash/zsh file to be set for every shell instead of having to manually run it everytime.
@@ -125,7 +125,7 @@ Build and Test
 Make sure you have Go installed and the project structure as shown above. To then get the dependencies for the project, execute the following commands:
 
 ```bash
-cd $GOPATH/src/github.com/influxdata/influxdb
+cd $GOPATH/src/github.com/archsaber/influxdb
 gdm restore
 ```
 
@@ -156,7 +156,7 @@ python build.py --package
 To run the tests, execute the following command:
 
 ```bash
-cd $GOPATH/src/github.com/influxdata/influxdb
+cd $GOPATH/src/github.com/archsaber/influxdb
 go test -v ./...
 
 # run tests that match some pattern
@@ -227,7 +227,7 @@ Pre-commit checks
 
 We have a pre-commit hook to make sure code is formatted properly and vetted before you commit any changes. We strongly recommend using the pre-commit hook to guard against accidentally committing unformatted code. To use the pre-commit hook, run the following:
 ```bash
-    cd $GOPATH/src/github.com/influxdata/influxdb
+    cd $GOPATH/src/github.com/archsaber/influxdb
     cp .hooks/pre-commit .git/hooks/
 ```
 In case the commit is rejected because it's not formatted you can run
@@ -277,4 +277,4 @@ func BenchmarkSomething(b *testing.B) {
 
 Continuous Integration testing
 -----
-InfluxDB uses CircleCI for continuous integration testing. To see how the code is built and tested, check out [this file](https://github.com/influxdata/influxdb/blob/master/circle-test.sh). It closely follows the build and test process outlined above. You can see the exact version of Go InfluxDB uses for testing by consulting that file.
+InfluxDB uses CircleCI for continuous integration testing. To see how the code is built and tested, check out [this file](https://github.com/archsaber/influxdb/blob/master/circle-test.sh). It closely follows the build and test process outlined above. You can see the exact version of Go InfluxDB uses for testing by consulting that file.

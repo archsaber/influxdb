@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/services/httpd"
+	"github.com/archsaber/influxdb/influxql"
+	"github.com/archsaber/influxdb/models"
+	"github.com/archsaber/influxdb/services/httpd"
 )
 
 func TestResponseWriter_CSV(t *testing.T) {

@@ -1,5 +1,5 @@
 // Package httpd implements the HTTP service and REST API for InfluxDB.
-package httpd // import "github.com/influxdata/influxdb/services/httpd"
+package httpd // import "github.com/archsaber/influxdb/services/httpd"
 
 import (
 	"crypto/tls"
@@ -13,7 +13,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
+	"github.com/archsaber/influxdb/models"
 	"github.com/uber-go/zap"
 )
 

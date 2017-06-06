@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
+	"github.com/archsaber/influxdb/tsdb/engine/tsm1"
 )
 
 func TestTSMReader_Type(t *testing.T) {

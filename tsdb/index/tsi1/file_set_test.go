@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/influxdata/influxdb/models"
+	"github.com/archsaber/influxdb/models"
 )
 
 // Ensure fileset can return an iterator over all series in the index.

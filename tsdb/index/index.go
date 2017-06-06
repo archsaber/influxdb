@@ -1,6 +1,6 @@
-package index // import "github.com/influxdata/influxdb/tsdb/index"
+package index // import "github.com/archsaber/influxdb/tsdb/index"
 
 import (
-	_ "github.com/influxdata/influxdb/tsdb/index/inmem"
-	_ "github.com/influxdata/influxdb/tsdb/index/tsi1"
+	_ "github.com/archsaber/influxdb/tsdb/index/inmem"
+	_ "github.com/archsaber/influxdb/tsdb/index/tsi1"
 )

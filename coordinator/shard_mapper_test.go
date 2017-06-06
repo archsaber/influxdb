@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/coordinator"
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/archsaber/influxdb/coordinator"
+	"github.com/archsaber/influxdb/influxql"
+	"github.com/archsaber/influxdb/services/meta"
+	"github.com/archsaber/influxdb/tsdb"
 )
 
 func TestLocalShardMapper(t *testing.T) {

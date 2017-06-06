@@ -3,7 +3,7 @@ package bloom_test
 import (
 	"testing"
 
-	"github.com/influxdata/influxdb/pkg/bloom"
+	"github.com/archsaber/influxdb/pkg/bloom"
 )
 
 // Ensure filter can insert values and verify they exist.

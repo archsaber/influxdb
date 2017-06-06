@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/influxdata/influxdb/client/v2"
-	"github.com/influxdata/influxdb/coordinator"
+	"github.com/archsaber/influxdb/client/v2"
+	"github.com/archsaber/influxdb/coordinator"
 )
 
 // HTTP supports writing points over HTTP using the line protocol.

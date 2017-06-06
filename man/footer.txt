@@ -1,6 +1,6 @@
 BUGS
 ----
-Report bugs to the GitHub issue tracker <https://github.com/influxdata/influxdb>.
+Report bugs to the GitHub issue tracker <https://github.com/archsaber/influxdb>.
 
 AUTHORS
 -------

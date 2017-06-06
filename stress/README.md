@@ -3,7 +3,7 @@
 The binary for `influx_stress` comes bundled with all influx installations. 
 To run it against an `influxd` instance located at  `localhost:8086` with the default configuration options:
 
-See more about the [default configuration options](https://github.com/influxdata/influxdb/blob/master/stress/stress.toml)
+See more about the [default configuration options](https://github.com/archsaber/influxdb/blob/master/stress/stress.toml)
 
 ```bash
 $ influx_stress

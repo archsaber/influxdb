@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb"
-	"github.com/influxdata/influxdb/coordinator"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/archsaber/influxdb"
+	"github.com/archsaber/influxdb/coordinator"
+	"github.com/archsaber/influxdb/models"
+	"github.com/archsaber/influxdb/services/meta"
+	"github.com/archsaber/influxdb/tsdb"
 )
 
 // TODO(benbjohnson): Rewrite tests to use cluster_test.MetaClient.

@@ -1,5 +1,5 @@
 // Package v8 contains code for importing data from 0.8 instances of InfluxDB.
-package v8 // import "github.com/influxdata/influxdb/importer/v8"
+package v8 // import "github.com/archsaber/influxdb/importer/v8"
 
 import (
 	"bufio"
@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/influxdb/client"
+	"github.com/archsaber/influxdb/client"
 )
 
 const batchSize = 5000

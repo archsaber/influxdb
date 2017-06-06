@@ -7,9 +7,9 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/archsaber/influxdb/influxql"
+	"github.com/archsaber/influxdb/models"
+	"github.com/archsaber/influxdb/tsdb"
 )
 
 // Measurement represents a collection of time series in a database. It also
